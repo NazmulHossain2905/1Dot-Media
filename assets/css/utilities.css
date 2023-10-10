@@ -1,0 +1,45 @@
+/* Utilities CSS styles starts here */
+.container {
+  max-width: 90rem;
+  margin-inline: auto;
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+}
+.ai-center {
+  align-items: center;
+}
+.jc-between {
+  justify-content: space-between;
+}
+.fd-column {
+  flex-direction: column;
+}
+.fw-wrap {
+  flex-wrap: wrap;
+}
+
+.btn-hover {
+  transition: transform 0.2s linear;
+}
+.btn-hover:hover {
+  transform: scale(1.05);
+}
+
+.card-hover {
+  transition: transform 0.2s linear;
+  cursor: pointer;
+}
+.card-hover:hover {
+  transform: scale(1.03);
+}
+
+/* Utilities CSS styles ends here */
